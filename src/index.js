@@ -3,9 +3,8 @@ import ReactDOM from 'react-dom';
 
 function App() {
 
-  return <div>HELLO</div>;
+  return <>Hello</>;
 
 }
 
-ReactDOM.render(<App />, document.getElementById('root'));
-
+ReactDOM.render(<App/>, document.getElementById('root'));
