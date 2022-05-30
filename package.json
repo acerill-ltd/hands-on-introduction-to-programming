@@ -1,0 +1,25 @@
+{
+  "name": "hands-on-introduction-to-programming",
+  "version": "1.0.0",
+  "private": false,
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "build": "react-scripts build && netlify-lambda build src/lambda"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "netlify-lambda": "^2.0.15"
+  }
+}
